@@ -24,11 +24,12 @@ defined:
 
 The runtime dependencies are:
 
-* exitstatus: Provides expressive, portable definitions for the standard POSIX exit codes 
+* exitstatus: Provides expressive, portable definitions for the standard POSIX
+  exit codes
 
 
-Installation
-############
+Usage
+#####
 
 Checkout the repository. To install the development dependencies, run:
 ::
@@ -40,10 +41,25 @@ To install the dependencies for running the sample program, run:
 
     pipenv install
 
-To run the unit tests of the project, run:
+To run the unit tests of the project with coverage report, run:
 ::
 
     pipenv run test
+
+To run the black code formatter, run:
+::
+
+    pipenv run black
+
+To check the PEP8 style guidelines, run:
+::
+
+    pipenv run flake8
+
+To check the optional static types with *mypy* run:
+::
+
+    pipenv run mypy
 
 Credits
 #######
