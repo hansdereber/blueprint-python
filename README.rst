@@ -50,8 +50,7 @@ Credits
 
 The sample code for the factorial implementation is attributed to `johnthagen <https://github.com/johnthagen>`_.
 
-Footnote
-########
+.. rubric:: Footnotes
 
 .. [#f1] If you want to provide you code to others to install it, then you
     should define dependencies as ranges of compatible versions, instead of
