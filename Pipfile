@@ -5,6 +5,9 @@ verify_ssl = true
 
 [scripts]
 test = "pytest --cov=fact"
+black = "black ."
+flake8 = "flake8"
+mypy = "mypy fact"
 
 [dev-packages]
 pytest = "==5.3.2"
