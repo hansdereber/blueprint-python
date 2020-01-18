@@ -5,7 +5,6 @@ import sys
 
 import colorama
 from exitstatus import ExitStatus
-
 from lib import factorial
 
 
