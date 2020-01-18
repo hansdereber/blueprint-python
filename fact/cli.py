@@ -6,7 +6,7 @@ import sys
 import colorama
 from exitstatus import ExitStatus
 
-from fact.lib import factorial
+from lib import factorial
 
 
 def parse_args() -> argparse.Namespace:
